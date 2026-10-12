@@ -19,12 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-The files under src/LLM-Resume-Template/ are third-party work and are NOT
-covered by this license. They originate from
-https://github.com/adongwanai/LLM-Resume-Template and are based on the resume
-template by Weitian LI, licensed under CC BY 4.0
-(https://creativecommons.org/licenses/by/4.0/). See the headers of those files
-for the original copyright notices.
