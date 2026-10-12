@@ -1,0 +1,99 @@
+%%
+%% Copyright (c) 2018-2020 Weitian LI <wt@liwt.net>
+%% CC BY 4.0 License
+%%
+%% Created: 2018-04-11
+%%
+
+% Chinese version
+% 以下内容均为虚构示例，请替换为你自己的信息。
+\documentclass[zh]{resume}
+
+% File information shown at the footer of the last page
+\fileinfo{}
+
+\name{三}{张}
+\tagline{算法工程师{\enskip$\cdot$\enskip}数据科学家}
+
+\profile{
+  \mobile{(+86) 138-0000-0000}
+  \email{zhangsan@example.com}
+  \github{your-github-id}
+}
+
+\begin{document}
+\makeheader
+
+%======================================================================
+% Summary & Objectives
+%======================================================================
+\begin{abstract}
+    \hspace{-2em}X 年算法经验，专注推荐系统、用户价值建模与用户分群。具备从特征工程到模型部署的全链路 ML Pipeline 构建经验，熟悉主流云平台的工程化落地。
+\end{abstract}
+
+%======================================================================
+\sectionTitle{专业技能}{\faWrench}
+%======================================================================
+\begin{itemize}
+    \item \textbf{编程语言：} 熟悉 Python、SQL；了解 Java
+    \item \textbf{数据开发：} 熟练使用 \textbf{PySpark、Pandas} 进行数据分析与挖掘
+    \item \textbf{LLM \& Prompt Engineering：} 熟悉 LangChain 框架及 OpenAI API；有结构化输出与 Prompt 工程实践经验
+    \item \textbf{ML/DL 模型：} 熟悉 \textbf{XGBoost、LightGBM}、LR 等机器学习模型；熟悉 Transformer、Wide\&Deep 等深度学习模型
+    \item \textbf{ML/DL 框架：} 熟练使用 \textbf{PyTorch、Scikit-Learn}；熟悉 Optuna 超参数调优及 SHAP 可解释性分析
+    \item \textbf{DevOps：} 有 \textbf{Airflow} 调度开发经验；熟悉 Docker + Kubernetes 容器化部署
+\end{itemize}
+
+%======================================================================
+\sectionTitle{教育背景}{\faGraduationCap}
+%======================================================================
+\begin{itemize}
+    \item \textbf{示例大学} \quad 计算机科学与技术 \quad 硕士研究生 \hfill 20XX.09 -- 20XX.07
+    \item \textbf{示例学院} \quad 软件工程 \quad 本科 \hfill 20XX.09 -- 20XX.07
+\end{itemize}
+
+%======================================================================
+\sectionTitle{工作经历}{\faBriefcase}
+%======================================================================
+\begin{itemize}
+
+  \item \textbf{示例科技有限公司} \quad 算法工程师 \quad 城市 \hfill 20XX.07 -- 至今
+
+  \begin{itemize}
+    \item \textbf{零售品牌个性化商品推荐系统} \quad \textit{示例指标：点击率 +X\%}
+    \begin{itemize}
+      \item 基于协同过滤与 LightGBM 多模型融合构建推荐系统，设计多维度重排规则（品类去重、新品加权、近期购买惩罚等），基于 SHAP 输出特征归因
+      \item 基于 PySpark 处理会员行为数据，构建多时间窗口滚动特征，实现周级自动化批量推理
+    \end{itemize}
+
+    \item \textbf{用户生命周期价值（CLTV）模型}
+    \begin{itemize}
+      \item 设计 RFM、多时间窗口消费统计、品类偏好等特征；采用 XGBoost 回归预测消费金额
+      \item 基于 SHAP 出具分析报告，为业务方提供可落地的运营建议
+    \end{itemize}
+
+    \item \textbf{LLM 对话信息抽取系统}
+    \begin{itemize}
+      \item 基于 LangChain + OpenAI API 构建结构化信息抽取流程，使用 Function Calling 生成结构化 JSON
+      \item 设计 Few-shot 提示词与 Pydantic 数据模型，实现聊天记录到结构化指标的自动化转换
+    \end{itemize}
+  \end{itemize}
+
+  \item \textbf{示例数据服务公司} \quad 算法工程师 \quad 城市 \hfill 20XX.07 -- 20XX.06
+
+  \begin{itemize}
+    \item \textbf{优惠券核销预测模型}
+    \begin{itemize}
+      \item 基于 XGBoost 构建核销预测模型，设计购买行为、浏览事件、会员属性等多类特征
+      \item 采用用户级分层交叉验证防止数据泄漏，结合网格搜索自动调参
+    \end{itemize}
+
+    \item \textbf{自动化数据分析平台}
+    \begin{itemize}
+      \item 基于 PySpark 实现自动化 EDA 引擎，支持多类型相关性分析与模型评估
+      \item 基于 Airflow 编排周级自动训练与推理 DAG
+    \end{itemize}
+  \end{itemize}
+
+\end{itemize}
+
+\end{document}

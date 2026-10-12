@@ -1,0 +1,23 @@
+# 个人数据：简历、JD 截图、事实库与任务产物不入库
+input/*
+!input/.gitkeep
+tmp/*
+!tmp/.gitkeep
+output/*
+!output/.gitkeep
+
+# LaTeX 编译产物
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.xdv
+*.synctex.gz
+build/
+
+# 本地配置
+.claude/settings.local.json
+**/.claude/settings.local.json
+.DS_Store
+__pycache__/
