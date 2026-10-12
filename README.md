@@ -79,3 +79,7 @@ JD 截图 ──► jd-analyst ──► JD 转录 + 结构化分析 ──► �
 ## 致谢
 
 LaTeX 简历模板来自 [adongwanai/LLM-Resume-Template](https://github.com/adongwanai/LLM-Resume-Template)，其样式基于 Weitian LI 的 resume 模板（CC BY 4.0），版权归原作者所有。
+
+## License
+
+本项目自有代码（`.claude/`、`scripts/` 等）采用 [MIT License](LICENSE)。`src/LLM-Resume-Template/` 下的模板文件不在此列，遵循其原作者的 CC BY 4.0 协议。
